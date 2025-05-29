@@ -1,6 +1,13 @@
-text = input("matnni kiriting: ")
+text = input("matn kiriting: ")
+text1 = input("soz.kiriting: ")
 
-text = text.lstrip()
-text = text.rstrip()
+a = []
+b = []
+a = text.split(" ")
+b = text1.split(" ")
 
-print(text)
+
+print(f"{a[0]} {b[-1]}")
+
+
+
